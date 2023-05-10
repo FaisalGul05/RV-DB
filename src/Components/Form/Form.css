@@ -1,0 +1,81 @@
+.form {
+  margin-top: 0.8rem;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+
+  margin-top: 0.5rem;
+}
+.label h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  margin-bottom: 0.3rem;
+}
+.labelR {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+
+  margin-top: 0.5rem;
+
+  margin-left: 6%;
+}
+.labelR h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  margin-bottom: 0.3rem;
+}
+.textArea {
+  all: initial;
+  background: #f1f1f1;
+  border-radius: 11px;
+}
+.labels {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lastLabel {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.lastLabel h1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  margin-bottom: 0.3rem;
+}
+.lastText {
+  all: initial;
+  width: 100%;
+  padding-bottom: 10rem;
+
+  background-color: #f1f1f1;
+  border-radius: 11px;
+}
+.submitBtn {
+  all: initial;
+  background: #00669e;
+  border-radius: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 1rem;
+  cursor: pointer;
+}

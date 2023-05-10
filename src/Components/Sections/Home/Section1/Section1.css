@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  z-index: 100;
+}
+.hero-container {
+  margin-top: 10rem;
+}
+
+.item1 {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  margin-top: 10rem;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  padding-top: 0.2rem;
+  padding-bottom: 3rem;
+  width: 75%;
+  justify-self: end;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669e;
+  border-radius: 28px;
+  filter: drop-shadow(0px 9px 30px rgba(0, 0, 0, 0.67));
+}
+.card1-content {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  width: 94%;
+  height: 90%;
+}
+
+.text-container {
+  height: 40%;
+  width: 80%;
+
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
+}
+.text-container h1 {
+  height: 100%;
+  width: 100%;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.63);
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+
+  color: #ffffff;
+}
+.hero-btn {
+  all: initial;
+}
+.hero-btn-link {
+  list-style-type: none;
+  text-decoration: none;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px #000000;
+  border-radius: 8px;
+  color: #00669e;
+  text-align: center;
+  padding: 10px 26px;
+  font-family: "Radian", sans-serif;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.search-button {
+  background-color: #003653;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 102, 158, 0.29);
+  border-radius: 8px;
+  border: #00669e;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 2rem;
+  cursor: pointer;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 22px;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.search-button:hover {
+  background-color: #ffffff;
+  color: #00669e;
+}
+.search-button:hover svg {
+  fill: #00669e;
+  transition: color 0.2s ease;
+}
+
+.search-button svg {
+  fill: white;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+}
+.search-button svg:hover {
+  fill: #00669e;
+  transition: color 0.2s ease;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (max-width: 800px) {
+  .text-container h1 {
+    font-size: 3rem;
+  }
+}

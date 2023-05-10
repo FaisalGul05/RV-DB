@@ -1,0 +1,76 @@
+.aboutHero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  position: relative;
+  z-index: 100;
+}
+
+.aboutHero {
+  height: 650px;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic-about {
+  width: 50%;
+  height: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.aboutHero-h1 {
+  color: #ffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.3rem, 8vw + 0.5rem, 3rem);
+  margin-bottom: 0.5rem;
+}
+
+.aboutHero-p {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-contactBtn {
+  all: initial;
+  margin-top: 2rem;
+}
+
+.contactbtn-link {
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00669e;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #00669e;
+
+  text-align: center;
+
+  padding: 8px 26px;
+  font-family: "Radian", sans-serif;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contactbtn-link:hover {
+  background-color: #003653;
+}

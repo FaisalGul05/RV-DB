@@ -1,0 +1,123 @@
+.cardList-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-class {
+  width: 90%;
+
+  background: #f5f5f5;
+  border: 3px solid #00669e;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.39);
+  border-radius: 30px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+.card-class:hover {
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+.name_price {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  margin-top: 0.5rem;
+}
+.name_price h2:nth-child(1) {
+  color: #000000;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.name_price h2:nth-child(2) {
+  color: #00669e;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.cardImg {
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+.card_text {
+  width: 85%;
+  text-align: left;
+
+  margin-right: 1.2rem;
+  margin-top: 0.5rem;
+}
+.card_text p {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.carConfig {
+  width: 90%;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carConfig p {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.logo_val {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.logo_val img {
+  margin-right: 0.2rem;
+}
+.logo_val h2 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.rvBtn {
+  background: #00669e;
+  border: none;
+  border-radius: 11px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.rvBtn a{
+  color: white;
+}
+
+.rvBtn-link {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 102, 158, 0.29);
+  text-decoration: none;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}

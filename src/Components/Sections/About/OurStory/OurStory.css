@@ -1,0 +1,91 @@
+.OurStory-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.OurStory-header {
+  height: 180px;
+  background-image: url("../../../Svg/ourStory-header.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurStory-headerH1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: white;
+}
+.OurStory-hero {
+  height: 750px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.OurStory-rv {
+  background-image: url("../../../Svg/ourStory-rv.svg");
+  background-size: cover;
+  background-position: center;
+}
+.OurStory-contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurStory-content {
+  width: 90%;
+  height: 80%;
+}
+.OurStory-contentH1 {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #00669e;
+}
+.OurStory-contentFirstPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 0.7rem;
+}
+.OurStory-contentSecondPara {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+}
+
+/* Media Queries */
+/* Tablet */
+
+@media (max-width: 800px) {
+  .OurStory-contentFirstPara,
+  .OurStory-contentSecondPara {
+    font-size: 1.3rem;
+  }
+  .OurStory-contentH1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .OurStory-contentH1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .OurStory-contentFirstPara,
+  .OurStory-contentSecondPara {
+    font-size: 0.9rem;
+  }
+  .OurStory-contentH1 {
+    font-size: 1.4rem;
+  }
+}

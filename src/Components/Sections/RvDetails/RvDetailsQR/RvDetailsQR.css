@@ -1,0 +1,65 @@
+.MyReviewQR-container {
+    display: flex;
+}
+
+
+.MyReviewQRImageContainer {
+    flex-basis: 45%;
+}
+
+.MyReviewQRImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.MyReviewQR-QRContainer {
+    flex-basis: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669E;
+    color: white;
+    /* box-shadow: -7px 0px 7px -2px rgba(87, 87, 87, 0.7);
+    -webkit-box-shadow: -7px 0px 7px -2px rgba(87, 87, 87, 0.7);
+    -moz-box-shadow: -7px 0px 7px -2px rgba(87, 87, 87, 0.7); */
+}
+
+
+.MyReviewQR-QRContainer h1 {
+    /* margin-top: 1em; */
+    padding: 0.9em 4em;
+    text-align: center;
+}
+
+
+
+.MyReview-QR {
+    border: '2px solid red'
+}
+
+/* .LoginLogo {
+    width: 25%;
+    height: auto;
+  } */
+/* Media Queries */
+/* Tablet */
+
+
+@media (max-width: 790px) {
+    .MyReviewQR-QRContainer {
+        flex-basis: 100%;
+        padding-top: 5rem;
+    }
+
+    .MyReviewQRImageContainer {
+        flex-basis: 0%;
+        display: none;
+    }
+
+    .MyReviewQR-QRContainer h1 {
+        /* margin-top: 1em; */
+        padding: 2em 2em 3em 2em;
+    }
+}

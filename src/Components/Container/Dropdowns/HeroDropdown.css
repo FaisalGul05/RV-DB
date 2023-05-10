@@ -1,0 +1,153 @@
+.item {
+  width: 23%;
+
+  color: #ffffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+
+  margin-top: 2rem;
+}
+.menu-card1 {
+  position: absolute;
+  width: 23%;
+  z-index: 2000;
+  max-height: 12rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+}
+
+.menu-card1 li {
+  list-style: none;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  height: 3rem;
+  background-color: #f2f2f2;
+  color: black;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-card1 li:hover {
+  background: #00669e;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.63);
+  color: #ffffff;
+}
+.lastMenu-card1 {
+  position: absolute;
+  width: 48.7%;
+  z-index: 2000;
+  max-height: 12rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+}
+.lastMenu-card1 li {
+  list-style: none;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  height: 3rem;
+  background-color: #f2f2f2;
+  color: black;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastMenu-card1 li:hover {
+  background: #00669e;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.63);
+  color: #ffffff;
+}
+.lastItem {
+  width: 48.7%;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.dropdown_button {
+  background-color: #ffffff;
+  color: #b1b1b1;
+  border-radius: 8px;
+  width: 100%;
+  height: 3rem;
+  border: 2px solid #00669e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.last-btn1 {
+  height: 3rem;
+  border-radius: 8px;
+  border: 2px solid #00669e;
+  color: #b1b1b1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dropDown-icon {
+  width: 1rem;
+  height: auto;
+  color: #00669e;
+}
+.menu-card1::-webkit-scrollbar {
+  background-color: #f2f2f2;
+  width: 0.5rem;
+}
+.lastMenu-card1::-webkit-scrollbar {
+  background-color: #f2f2f2;
+  width: 0.5rem;
+}
+/* Media Queries */
+/* Tablet */
+@media (max-width: 1450px) {
+  .item {
+    width: 48.5%;
+  }
+  .menu-card1 {
+    width: 48.5%;
+  }
+}
+
+@media (max-width: 690px) {
+  .item {
+    width: 100%;
+  }
+  .menu-card1 {
+    width: 100%;
+  }
+  .lastItem {
+    width: 100%;
+  }
+  .lastMenu-card1 {
+    width: 100%;
+  }
+}

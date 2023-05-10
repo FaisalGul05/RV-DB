@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+  /* width of the scrollbar */
+  background-color: #f5f5f5;
+  border: #555;
+
+  /* background color of the scrollbar */
+}
+
+/* Style the thumb (the part of the scrollbar that you grab) */
+::-webkit-scrollbar-thumb {
+  background-color: #00669e;
+  /* color of the thumb */
+  border: #555;
+  /* roundness of the thumb */
+}
+
+/* Style the thumb when it's hovered over */

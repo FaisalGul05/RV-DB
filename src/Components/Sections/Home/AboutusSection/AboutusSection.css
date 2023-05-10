@@ -1,0 +1,87 @@
+.sec3Container {
+  background-image: url("../../../Svg/sec3-bg.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 750px;
+}
+.readAbout {
+  background: rgba(0, 0, 0, 0.51);
+  backdrop-filter: blur(15px);
+
+  border-radius: 43px;
+  width: 80%;
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.readAbout h1 {
+  width: 100%;
+  color: #ffffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.para1 {
+  color: #ffffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  width: 90%;
+}
+.para2 {
+  color: #ffffff;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+.rdMoreBtn {
+  border: none;
+  cursor: pointer;
+  background: #ffffff;
+
+  border-radius: 8px;
+
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.rdMore-link {
+  all: inherit;
+  cursor: pointer;
+  color: #00669e;
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+
+  margin: 0;
+}
+
+/* Media Queries */
+/* Tablet */
+@media (max-width: 1290px) {
+  .readAbout h1 {
+    font-size: 2rem;
+  }
+  .para1,
+  .para2 {
+    font-size: 1.2rem;
+  }
+} ;

@@ -1,0 +1,25 @@
+.MyReviewLogin-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+.MyReviewLogin-rv {
+  background-image: url("../../../Svg/MyReviewRv.svg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+/* .LoginLogo {
+  width: 25%;
+  height: auto;
+} */
+/* Media Queries */
+/* Tablet */
+@media (max-width: 790px) {
+  .MyReviewLogin-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .MyReviewLogin-rv {
+    display: none;
+  }
+}

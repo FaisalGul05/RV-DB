@@ -1,0 +1,129 @@
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  color: #ffffff;
+  background-color: #00669e;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.69);
+}
+.nav2-left {
+  display: flex;
+  width: 40%;
+}
+.nav2-center {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+}
+.logo {
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+.nav2-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 40%;
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.links {
+  list-style: none;
+  margin-top: 5px;
+}
+.nav-link {
+  list-style: none;
+
+  text-decoration: none;
+  color: #afa9a9;
+
+  font-family: "Radian", sans-serif;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px 15px;
+
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  background-color: #00669e;
+  color: #ffffff;
+}
+.navBtn {
+  all: initial;
+  margin-top: 5px;
+}
+.btn-link {
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid #00669e;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #003653;
+
+  text-align: center;
+
+  padding: 4px 26px;
+  font-family: "Radian", sans-serif;
+
+  font-family: "Radian";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.btn-link:hover {
+  background-color: rgba(0, 102, 158, 0.09);
+  color: #000000;
+  border-color: #000000;
+}
+.btn-li {
+  all: initial;
+}
+.active {
+  background-color: #00669e;
+  color: #ffffff;
+}
+.dropdown-content {
+  position: absolute;
+  height: 500px;
+  background-color: green;
+  z-index: 2000;
+}
+.dropdown-content li {
+  list-style: none;
+}
+.SignUp-icon {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.LogoutBtn{
+  cursor: pointer;
+}

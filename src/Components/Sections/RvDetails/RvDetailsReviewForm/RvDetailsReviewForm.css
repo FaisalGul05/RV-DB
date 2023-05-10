@@ -1,0 +1,194 @@
+.RvFormContainer {
+    display: flex;
+}
+
+.RvFormDetailContainer {
+    flex-basis: 55%;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Radian';
+    gap: 2.4em;
+}
+
+.RvHeading {
+    font-size: clamp(1rem, 2vw + 0.3rem, 2rem);
+    /* font-size: 2rem; */
+    background-color: #00669E;
+    color: white;
+    border-radius: 1em;
+    padding: 0.2em 0.7em;
+}
+
+.RvFormImageContainer {
+    flex-basis: 45%;
+
+}
+
+.RvFormImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.RvRatingFormContainer {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.RvRatingForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* border: 2px solid blue; */
+}
+
+.RvFormRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formlabel {
+    flex-basis: 70%;
+    /* border: 2px solid red; */
+    font-size: clamp(1rem, 1.1vw + 0.3rem, 1.4rem);
+    font-weight: 600;
+    background-color: #EEEEEE;
+    padding: 0.5em 0.8em;
+    border-radius: 1em;
+}
+
+.MuiRating-root {
+    /* border: 2px solid red; */
+    flex-basis: 25%;
+}
+
+
+.RvRatingEmptyIcon {
+    color: #00679e8e;
+}
+
+.RVTextField {
+    resize: none;
+    width: clamp(250px, 35vw + 5rem, 580px);
+    height: clamp(60px, 5vw + 2rem, 116px);
+    font-weight: 400;
+    font-size: clamp(1rem, 1.1vw + 0.3rem, 1.4rem);
+    line-height: 26px;
+    padding: 0.4em 0.8em;
+    background-color: #EEEEEE;
+    outline: none;
+    border: 0px;
+    border-radius: 1em;
+    color: #6d6969;
+    display: block;
+    margin: 0 auto;
+}
+
+.RVTextField.error {
+    background-color: rgb(232, 164, 164);
+}
+
+.RvFormBtn {
+    font-family: 'Radian';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1rem, 1.1vw + 0.3rem, 1.4rem);
+    line-height: 26px;
+    text-align: center;
+    background-color: #00669E;
+    color: #ffffff;
+    padding: 1em;
+    border: 0px;
+    border-radius: 1em;
+
+
+}
+
+.RvFormBtn:hover {
+    background-color: #05496d;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1250px) {
+    .RvFormDetailContainer {
+        gap: 1.2em;
+        justify-content: center;
+    }
+
+    .RvRatingForm {
+        gap: 0.4em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .RvFormDetailContainer {
+        gap: 0.9em;
+    }
+
+    .RvRatingForm {
+        gap: 0.5em;
+    }
+
+    .RvRatingFormContainer {
+        gap: 0.5em
+    }
+
+    .RvFormBtn {
+        padding: 0.5em;
+    }
+
+    .formlabel {
+        padding: 0.3em 0.6em;
+    }
+
+    /* .RVTextField{
+        width: 900px;
+    } */
+}
+
+/* Media Queries */
+/*  Tablet*/
+
+@media (max-width: 790px) {
+    .RvFormImageContainer {
+        display: none;
+    }
+
+    .RvFormDetailContainer {
+        flex-basis: 100%;
+        padding: 2em 2em 4em 2em;
+    }
+
+    .RVTextField {
+        width: clamp(250px, 50vw + 5rem, 580px);
+    }
+}
+
+
+@media (max-width: 520px) {
+    .RvFormDetailContainer {
+        flex-basis: 100%;
+        gap: 1.5em;
+    }
+
+    .RvRatingForm{
+        gap:1.2em
+    }
+    .RvFormRow {
+        flex-direction: column;
+        gap:0.4em
+    }
+    .RvRatingFormContainer{
+        gap:1em
+    }
+}
+
+/* @media (max-width: 400px) {} */

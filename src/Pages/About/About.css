@@ -1,0 +1,7 @@
+.about-container {
+  background-image: url("../../Components/Svg/about_bg.svg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 750px;
+}
